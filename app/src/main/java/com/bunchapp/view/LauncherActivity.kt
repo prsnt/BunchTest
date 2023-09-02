@@ -25,7 +25,7 @@ class LauncherActivity : AppCompatActivity(), View.OnClickListener {
         binding?.btnEmpList?.setOnClickListener(this)
 
         AppCenter.start(
-            application, "7d3cfe6c-0a67-4ae6-81a8-3433b542bbbb",
+            application, "bf2c1c83-5a3b-4023-b524-45d770e58e2e",
             Analytics::class.java, Crashes::class.java
         )
     }
